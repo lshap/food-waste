@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins|Roboto+Mono);body {
+  font-family: 'Poppins', Helvetica;
+  font-size: 18px;
+  margin: 0 10px;
+  overflow-x: hidden; }
+
+.quiz-cover {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  .quiz-cover img {
+    width: 100%; }
+  .quiz-cover.open {
+    display: block; }
+
+.quiz-container img {
+  width: 100%; }
+
+.quiz-title {
+  margin: 2em 0;
+  font-size: 1.5em;
+  line-height: 1.5;
+  padding-bottom: 1em;
+  border-bottom: 2px solid black;
+  font-weight: bold; }
+
+.question-container {
+  margin-bottom: 3em; }
+
+.question-title {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  font-weight: bold; }
+
+.answer-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1em; }
+  .answer-container.wrap {
+    flex-wrap: wrap; }
+    .answer-container.wrap .answer-option {
+      width: 30%;
+      min-width: 25%; }
+
+.answer-option {
+  min-width: 30%;
+  padding: 5px;
+  background-color: white; }
+  .answer-option img {
+    width: 100%; }
+  .answer-option .answer-title {
+    margin: 0.5em 0;
+    font-size: 0.7em;
+    line-height: 15px;
+    padding: 0 0.5em; }
+
+.footer-stat {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.7em;
+  color: #7f1eff;
+  border: 1px solid #7f1eff;
+  padding: 1em; }
+
+.selected {
+  box-shadow: inset 0 0 0 5px limeGreen; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=main.css.map*/
