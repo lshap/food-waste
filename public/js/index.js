@@ -39481,8 +39481,7 @@ var Quiz = __WEBPACK_IMPORTED_MODULE_0_react___default.a.createClass({
 
 "use strict";
 var questions = [{ "radio": false, "question": "Yawn, you just woke up. You know it’ll be a good day if you start with some ...",
-  "answerOptions": [{ "imageSrc": "images/bacon.jpg", "text": "" }, { "imageSrc": "images/cereal.jpg", "text": "" }, { "imageSrc": "images/croissants.jpg", "text": "" }, { "imageSrc": "images/donut.jpg", "text": "" }, { "imageSrc": "images/muffins.jpg", "text": "" }, { "imageSrc": "images/eggs.png", "text": "" }, { "imageSrc": "images/coldcuts.jpg", "text": "" }],
-  "note": "9/10 people don't finish their dinner."
+  "answerOptions": [{ "imageSrc": "images/bacon.jpg", "text": "" }, { "imageSrc": "images/cereal.jpg", "text": "" }, { "imageSrc": "images/croissants.jpg", "text": "" }, { "imageSrc": "images/donut.jpg", "text": "" }, { "imageSrc": "images/muffins.jpg", "text": "" }, { "imageSrc": "images/eggs.png", "text": "" }, { "imageSrc": "images/coldcuts.jpg", "text": "" }]
 }, { "radio": true, "question": "I eat a \"proper\" breakfast...",
   "answerOptions": [{ "imageSrc": "images/bagel.jpg", "text": "every day" }, { "imageSrc": "images/lady.png", "text": "in my mother's dreams" }]
 }, { "radio": false, "question": "Fading... fast. Gimme some:",

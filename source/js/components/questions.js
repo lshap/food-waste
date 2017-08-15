@@ -8,8 +8,7 @@ var questions = [
         {"imageSrc": "images/muffins.jpg", "text": ""},
         {"imageSrc": "images/eggs.png", "text": ""},
         {"imageSrc": "images/coldcuts.jpg", "text": ""}
-       ],
-      "note": "9/10 people don't finish their dinner."
+       ]
     },
     {"radio": true, "question": "I eat a \"proper\" breakfast...",
       "answerOptions":[
